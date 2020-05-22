@@ -1,0 +1,70 @@
+INSERT INTO projects (title, category, funding_goal, start_date, end_date)
+VALUES
+    ('stuff1','commercial',25987,'10-10-2019','6-10-2022'),
+    ('stuff2','commercial',95487,'10-10-2018','5-10-2022'),
+    ('stuff3','commercial',23187,'9-10-2018','4-10-2022'),
+    ('stuff4','residential',100987,'9-10-2020','3-10-2022'),
+    ('stuff5','residential',55987,'8-10-2020','2-10-2022'),
+    ('stuff6','residential',65987,'7-10-2020','1-10-2022'),
+    ('stuff7','commercial',75987,'6-10-2020','12-10-2022'),
+    ('stuff8','commercial',98987,'5-10-2020','11-11-2022'),
+    ('stuff9','residential',8987,'4-10-2020','10-10-2022'),
+    ('stuff10','residential',198987,'3-10-2020','10-10-2023');
+
+
+INSERT INTO users (name, age)
+VALUES 
+    ('Randy', 45),
+    ('Andy', 43),
+    ('Mandy', 35),
+    ('Tom', 28),
+    ('Ron', 37),
+    ('Don', 57),
+    ('Bob', 56),
+    ('Rob', 20),
+    ('Tod', 25),
+    ('Randy', 35),
+    ('Ralph', 45),
+    ('Ryan', 55),
+    ('Randy', 65),
+    ('Randy', 75),
+    ('Randy', 65),
+    ('Randy', 55),
+    ('Randy', 45),
+    ('Randy', 35),
+    ('Randy', 25),
+    ('Randy', 15);
+
+
+INSERT INTO pledges (user_id, project_id)
+VALUES 
+    (1,2),
+    (2,3),
+    (3,5),
+    (4,6),
+    (5,10),
+    (6,9),
+    (7,8),
+    (8,7),
+    (9,6),
+    (10,5),
+    (11,4),
+    (12,3),
+    (13,2),
+    (14,1),
+    (15,4),
+    (16,6),
+    (17,7),
+    (18,10),
+    (19,9),
+    (20,8),
+    (1,7),
+    (2,6),
+    (3,5),
+    (4,1),
+    (5,2),
+    (6,4),
+    (7,6),
+    (8,2),
+    (9,1),
+    (10,10);
